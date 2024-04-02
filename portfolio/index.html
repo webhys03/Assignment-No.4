@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYS Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(3, 11, 63);
+            color: white;
+            font-family: sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(42, 58, 164);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(115, 181, 238);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(92, 116, 204);
+            height: 1px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 3rem;
+
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .clr {
+            color: rgb(178, 156, 197);
+        }
+
+        .clr-second {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(178, 156, 197);
+        }
+
+        .SecondSection {
+            max-width: 8-vw;
+            margin: 100px 100px 0px 100px;
+            height: 80vh;
+        }
+
+        .SecondSection h1 {
+            font-size: 1.8rem;
+        }
+
+        .SecondSection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .SecondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .imgw1 {
+            width: 23px;
+            position: relative;
+            top: -23px;
+            left: -10px;
+        }
+
+        .verticalw1 {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .verticalw1text {
+            position: relative;
+            top: 80px;
+            color: gray;
+            width: 150px;
+            font-size: 12px;
+        }
+
+        video {
+            width: 50%;
+            margin: 0px 50px 0px 50px;
+            align-items: center;
+            display: flexbox;
+        }
+        #videoyt{
+            margin-bottom: 80px;
+        }
+
+        .audio{
+            margin: 100px;
+        }
+
+        .textbox {
+            margin: 0;
+
+        }
+
+        footer {
+            background-color: rgb(3, 10, 141);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Hussain YS's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Us</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi! This is <span class="clr">Hussain Yousuf Sunain</span>
+                <div>a creative</div>
+                <span id="element"></span>
+                <br>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="dev.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="SecondSection">
+            <span class="clr-second">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="WE1.png" alt="" class="imgw1">
+                    <div class="verticalw1">
+                        From 2010-2012
+                    </div>
+                    <div class="verticalw1text">
+                        Keen to work on coding since childhood. A veherent learner of Html.
+                    </div>
+
+
+                </div>
+                <div class="vertical">
+                    <img src="WE1.png" alt="" class="imgw1">
+                    <div class="verticalw1">
+                        From 2012-2014
+                    </div>
+                    <div class="verticalw1text">
+                        Started the basics of computer and its applications
+                    </div>
+
+
+                </div>
+                <div class="vertical">
+                    <img src="WE1.png" alt="" class="imgw1">
+                    <div class="verticalw1">
+                        From 2014-2016
+                    </div>
+                    <div class="verticalw1text">
+                        Started work on basic software installation and basic html.
+                    </div>
+
+
+                </div>
+                <div class="vertical">
+                    <img src="WE1.png" alt="" class="imgw1">
+                    <div class="verticalw1">
+                        From 2016-2020
+                    </div>
+                    <div class="verticalw1text">
+                        Did multiple projects by using just html
+                    </div>
+
+
+                </div>
+                <div class="vertical">
+                    <img src="WE1.png" alt="" class="imgw1">
+                    <div class="verticalw1">
+                        From 2020-2024
+                    </div>
+                    <div class="verticalw1text">
+                        Did multiple projects using html as well as css and javascriot too
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <div class="video">
+            <video src="video1.mp4" controls> Videography</video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5H3HPAwiQ_4?si=WHcevw9G42_SIIVr"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen id="videoyt"></iframe>
+        </div>
+        <div class="audio">
+            <audio src="Portfolio.mp3" controls></audio>
+        </div>
+            
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>This is</li>
+                    <li>all about me and passion</li>
+                    <li>I strive for improving my skills. </li>
+
+                </ul>
+            </div>
+            <div class="footer-forth">
+                <ul>
+                    <li>Here you can</li>
+                    <li>find about myself</li>
+                    <li>and passion  that I have.</li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class=" footer-rights">
+            copyright &#169 www.hussainysportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Photographer', 'Videographer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
